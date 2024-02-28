@@ -1,3 +1,10 @@
-site_name: Documentation
+site_name: Wiki
+site_description: 'Wiki - jfcartier'
+site_author: 'Jean-François Cartier'
+docs_dir: docs/
+repo_name: 'jfcmontmorency/jfcmontmorency.github.io'
+repo_url: 'https://github.com/jfcmontmorency/jfcmontmorency.github.io'
 nav:
-  - Accueil: index.md
+    - Accueil: index.md
+theme:
+  name: 'material'
