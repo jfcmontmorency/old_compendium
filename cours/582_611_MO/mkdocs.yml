@@ -1,9 +1,0 @@
-# Project information
-site_name: 582_611_MO
-
-# Theme
-theme:
-  name: material
-
-nav:
-  - Accueil: index.md
