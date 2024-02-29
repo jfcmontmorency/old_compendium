@@ -11,3 +11,5 @@ nav:
         - Accueil: 582_611_MO/index.md
 theme:
   name: 'material'
+plugins:
+  - projects
