@@ -1,34 +1,42 @@
-# Project information
-site_name: TIM MkDocs
-site_author: 'Jean-François Cartier'
-site_description: >-
-  Wiki des cours en TIM version jfcartier
-copyright: TIM
-
-# Repository
-# repo_name: 'jfcmontmorency/jfcmontmorency.github.io'
-# repo_url: 'https://github.com/jfcmontmorency/jfcmontmorency.github.io'
-
 # Navigation
+
 nav:
-  - Home: index.md
+  - Web 3:
+    - 582-311-MO/index.md
+    # - Cours 3 - 31 janvier: 582-311-MO/cours3.md
+    - Cours 2 - 12 janvier: 582-311-MO/cours2.md
+    - Cours 1 - 6 janvier: 582-311-MO/cours1.md
+  - Stage en entreprise:
+    - Cours 1: 582-611-MO/cours1.md
+    - Cours 2: 582-611-MO/cours2.md
+    - Cours 3: 582-611-MO/cours3.md
+
+
+###########################################################################
+###########################################################################
 
 # Theme (Material de Google)
 theme:
   name: material
+  custom_dir: overrides
+  # font:
+  #   text: Poppins
   language: fr
-  logo: logo.svg
-  favicon: logo.svg
+  logo: _/logo.svg
+  favicon: _/logo.svg
   features:
     - content.tooltips
+    - content.code.copy
+    - toc.follow
     - navigation.sections
     - navigation.top
     - navigation.tabs
     - navigation.tracking
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
-    - content.code.copy
+    - navigation.path
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -40,25 +48,35 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Mode sombre
-        
+
 # Extensions
 markdown_extensions:
-  - admonition
   - attr_list
+  - admonition
   - footnotes
+  - tables
   - toc:
       permalink: true
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.details
   - pymdownx.emoji:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.keys
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # - pymdownx.highlight:
+      # linenums: true
+      # auto_title: true
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
@@ -66,3 +84,20 @@ markdown_extensions:
 # Extras
 extra:
   generator: false
+
+extra_css:
+  - _/extra.css
+
+extra_javascript:
+  - _/extra.js
+
+plugins:
+  - offline
+  # - search # Search bar removed
+
+# Project information
+site_name: Wiki
+site_author: 'Jean-François Cartier'
+site_description: >-
+  Wiki des cours en TIM façon jfcartier
+copyright: Techniques d'intégration multimédia — Collège Montmorency

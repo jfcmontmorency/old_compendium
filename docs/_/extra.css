@@ -1,0 +1,27 @@
+/* Cache les tabs en attendant le JS pour les retirer du DOM  */
+.md-container > .md-tabs {
+    display: none;
+}
+
+.md-header__button.md-logo {
+    cursor: default;
+}
+
+.md-footer {
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+.md-footer-meta {
+    background-color: transparent;
+}
+
+.md-copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.md-copyright__highlight{
+    color: var(--md-typeset-color);
+    font-size: 0.5rem;
+}
