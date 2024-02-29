@@ -23,7 +23,7 @@ theme:
 plugins:
   - projects:
       projects_dir: cours
-      projects_config_transform: !!python/name:examples.transform
+      projects_config_transform: !!python/name:cours.transform
       log_level: info
 
 # Extensions
