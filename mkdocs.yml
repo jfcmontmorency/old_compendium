@@ -8,6 +8,10 @@ site_description: >-
 repo_name: 'jfcmontmorency/jfcmontmorency.github.io'
 repo_url: 'https://github.com/jfcmontmorency/jfcmontmorency.github.io'
 
+# Navigation
+nav:
+  - Home: index.md
+
 # Theme
 theme:
   name: material
@@ -18,13 +22,6 @@ theme:
     - navigation.sections
   icon:
     logo: logo
-
-# Plugins
-plugins:
-  - projects:
-      projects_dir: cours
-      # projects_config_transform: !!python/name:cours.transform
-      # log_level: info
 
 # Extensions
 markdown_extensions:
