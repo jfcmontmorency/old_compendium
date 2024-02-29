@@ -18,9 +18,6 @@ nav:
 # Theme (Material de Google)
 theme:
   name: material
-  custom_dir: overrides
-  # font:
-  #   text: Poppins
   language: fr
   logo: _/logo.svg
   favicon: _/logo.svg
@@ -93,7 +90,6 @@ extra_javascript:
 
 plugins:
   - offline
-  # - search # Search bar removed
 
 # Project information
 site_name: Wiki
