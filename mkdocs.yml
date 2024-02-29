@@ -12,4 +12,7 @@ nav:
 theme:
   name: 'material'
 plugins:
-  - projects
+  - projects:
+      projects_dir: cours
+      projects_config_transform: !!python/name:cours.transform
+      log_level: info
