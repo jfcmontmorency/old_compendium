@@ -23,8 +23,8 @@ theme:
 plugins:
   - projects:
       projects_dir: cours
-      projects_config_transform: !!python/name:cours.transform
-      log_level: info
+      # projects_config_transform: !!python/name:cours.transform
+      # log_level: info
 
 # Extensions
 markdown_extensions:
