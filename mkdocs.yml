@@ -15,13 +15,12 @@ nav:
 # Theme
 theme:
   name: material
+  language: fr
   features:
     - content.action.edit
     - content.action.view
     - content.tooltips
     - navigation.sections
-  icon:
-    logo: logo
 
 # Extensions
 markdown_extensions:
