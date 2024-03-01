@@ -92,7 +92,7 @@ plugins:
   - offline
 
 # Project information
-site_name: Wiki
+site_name: ' '
 site_author: 'Jean-François Cartier'
 site_description: >-
   Wiki des cours en TIM façon jfcartier
