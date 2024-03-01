@@ -20,4 +20,4 @@ Ce cours permet à l’élève de se familiariser avec les logiciels d’intégr
 | Session               | 3       |
 
 
-[:octicons-download-16: Plan de cours](assets/582A1_plan_de_formation_2023.pdf){ .md-button .md-button--primary }
+[Plan de cours](assets/582A1_plan_de_formation_2023.pdf){ .md-button .md-button--primary }
