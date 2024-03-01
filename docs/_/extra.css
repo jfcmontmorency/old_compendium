@@ -30,3 +30,7 @@ html .md-footer-meta.md-typeset a {
     color: var(--md-typeset-color);
     text-decoration: underline;
 }
+
+html .md-footer-meta.md-typeset a:hover {
+    color: var(--md-primary-fg-color);
+}
