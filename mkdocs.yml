@@ -19,7 +19,7 @@ nav:
 theme:
   name: material
   language: fr
-  logo: _/logo.svg
+  logo: _/logo-tim.svg
   favicon: _/logo.svg
   features:
     - content.tooltips
