@@ -20,7 +20,7 @@ theme:
   name: material
   language: fr
   logo: _/logo-tim.svg
-  favicon: _/logo.svg
+  favicon: _/favicon-32x32.png
   features:
     - content.tooltips
     - content.code.copy
@@ -36,12 +36,13 @@ theme:
     - navigation.path
   palette:
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
       primary: black
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Mode clair
     - media: "(prefers-color-scheme: light)"
+      primary: white
       scheme: default
       toggle:
         icon: material/brightness-7
