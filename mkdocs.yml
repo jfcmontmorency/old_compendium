@@ -88,7 +88,7 @@ extra_javascript:
 plugins:
   - offline
 
-# Project information
+# Project information 
 site_name: ' '
 site_author: 'Jean-François Cartier'
 site_description: >-
