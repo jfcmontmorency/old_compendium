@@ -36,7 +36,7 @@ theme:
     - navigation.path
   palette:
     - media: "(prefers-color-scheme: dark)"
-      primary: black
+      primary: custom
       scheme: slate
       toggle:
         icon: material/brightness-4
