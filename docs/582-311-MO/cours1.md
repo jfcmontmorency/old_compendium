@@ -1,4 +1,4 @@
-# Cours 1 - Salutations
+# Cours 1 - Allo 🖖
 
 ## Ordre du jour
 
