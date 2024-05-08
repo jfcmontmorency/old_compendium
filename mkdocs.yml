@@ -1,16 +1,49 @@
 # Navigation
 
 nav:
-  - Web 3:
-    - 582-311-MO/index.md
-    # - Cours 3 - 31 janvier: 582-311-MO/cours3.md
-    - Cours 2 - 12 janvier: 582-311-MO/cours2.md
-    - Cours 1 - 6 janvier: 582-311-MO/cours1.md
-  - Stage en entreprise:
-    - Cours 1: 582-611-MO/cours1.md
-    - Cours 2: 582-611-MO/cours2.md
-    - Cours 3: 582-611-MO/cours3.md
+  - Domaines multimédias :
+    # - 582-101–domaines-multimedias/index.md
+    - Cours 15: 582-101–domaines-multimedias/cours15.md
+    - Cours 14: 582-101–domaines-multimedias/cours14.md
+    - Cours 13: 582-101–domaines-multimedias/cours13.md
+    - Cours 12: 582-101–domaines-multimedias/cours12.md
+    - Cours 11: 582-101–domaines-multimedias/cours11.md
+    - Cours 10: 582-101–domaines-multimedias/cours10.md
+    - Cours 9: 582-101–domaines-multimedias/cours9.md
+    - Cours 8: 582-101–domaines-multimedias/cours8.md
+    - Cours 7: 582-101–domaines-multimedias/cours7.md
+    - Cours 6: 582-101–domaines-multimedias/cours6.md
+    - Cours 5: 582-101–domaines-multimedias/cours5.md
+    - Cours 4: 582-101–domaines-multimedias/cours4.md
+    - Cours 3: 582-101–domaines-multimedias/cours3.md
+    - Cours 2: 582-101–domaines-multimedias/cours2.md
+    - Cours 1: 582-101–domaines-multimedias/cours1.md
 
+
+    # - 582-101–domaines-multimedias
+    # - 582-111-web1
+    # - 582-121–illustration-numerique
+    # - 582-131–audio1
+    # - 582-201–design-graphique
+    # - 582-211–web2
+    # - 582-212-video1
+    # - 582-214–animation2D
+    # - 582-301–interactivite-ludique
+    # - 582-311–web3
+    # - 582-312-video2
+    # - 582-314–modelisation3D
+    # - 582-401-realite-mixte
+    # - 582-411–web4
+    # - 582-412–traitement-audiovisuel
+    # - 582-414–animation3D
+    # - 582-431–audio2
+    # - 582-501–conception-experience-multimedia
+    # - 582-511–web5
+    # - 582-521–installation-multimedia
+    # - 582-531–objets-interactifs
+    # - 582-541–preparation-milieu-travail
+    # - 582-601–experience-multimedia
+    # - 582-611–stage-entreprise
 
 ###########################################################################
 ###########################################################################
