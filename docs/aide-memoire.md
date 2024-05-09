@@ -68,17 +68,6 @@ Ce document sert de guide pour l'utilisation du langage Markdown.
 
     ![Texte alternatif de l'image](https://picsum.photos/200)
 
-## Émoji
-
-``` title="Syntaxe en Markdown"
-:service_dog:
-```
-
-!!! example "Résultat"
-    :service_dog:
-
-[Liste complète des émojis](https://twemoji-cheatsheet.vercel.app/)
-
 ## [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
 ``` title="Syntaxe en Markdown"

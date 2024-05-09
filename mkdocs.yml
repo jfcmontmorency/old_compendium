@@ -454,6 +454,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
@@ -476,6 +477,7 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: true
 
+    
 # Extras
 extra:
   generator: false
@@ -488,10 +490,11 @@ extra_javascript:
 
 plugins:
   - offline
+  - mkdocs-video
 
 # Project information 
 site_name: ' '
-site_author: 'Jean-François Cartier'
+site_author: 'JF Cartier'
 site_description: >-
   Compendium des cours et des évaluations façon Timmomo
 copyright: Techniques d'intégration multimédia | Collège Montmorency
