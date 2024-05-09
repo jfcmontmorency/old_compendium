@@ -209,6 +209,10 @@ Styles disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `
         }
         ```
 
+## Vidéo
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+
 ## Intégration Codepen
 
 Pour intégrer un snippet Codepen, insérez simplement le iframe directement dans le markdown.
