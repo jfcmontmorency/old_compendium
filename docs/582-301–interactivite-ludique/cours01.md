@@ -10,27 +10,28 @@
 
 ## Révision JavaScript
 
-### Hello world! (console.log, commentaires)
+### La base de la base
 
-```js
-// Voici un beau commentaire!
-console.log("Salut!");
-```
-### Variables (var, let, const) et types (bool, int, string)
+> ```js
+> // Voici un beau commentaire!
+> console.log("Salut!");
+> ```
 
-```js
-let name = 'JF';
-const age = 99;
-var isStudent = false;
-```
+### Variables
 
-```js
-let num = 10; // number
-let str = 'Salut!'; // string
-let isTrue = true; // boolean
-let empty = null; // null
-let notDefined; // undefined
-```
+> ```js
+> let name = 'JF';
+> const age = 99;
+> var isStudent = false;
+> ```
+
+> ```js
+> let num = 10;       // Nombre (number)
+> let str = 'Salut!'; // Chaine de caractères (string)
+> let isTrue = true;  // Booléen (boolean)
+> let empty = null;   // Nul (null)
+> let notDefined;     // Non défini (undefined)
+> ```
 
 ### Opérateurs (+, -, *, /, >, <, ==, !=)
 ### Conditions (if, else, elseif, switch)
