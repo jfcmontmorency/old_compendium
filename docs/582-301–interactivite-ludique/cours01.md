@@ -92,18 +92,21 @@ for (let i = 0; i < 100000; i++) {
   console.log(i + ' $');
 }
 ```
+
 ```js title="for...in"
 let person = {name: 'JF', age: 99, city: 'Laval'};
 for (let key in person) {
   console.log(key + ' : ' + person[key]);
 }
 ```
+
 ```js title="for...of"
 let fruits = ['Pomme', 'Banane', 'Cerise'];
 for (let fruit of fruits) {
   console.log(fruit);
 }
 ```
+
 ```js title="forEach"
 let numbers = [1, 2, 3, 4, 5];
 numbers.forEach(function(number) {
@@ -118,11 +121,13 @@ function greet(name) {
   return 'Coucou ' + name + ' !';
 }
 ```
+
 ```js title="Variable fonction"
 const greet = function(name) {
   return 'Coucou ' + name + ' !';
 };
 ```
+
 ```js title="Fonction fléchée"
 const greet = (name) => {
   return 'Coucou ' + name + ' !';
@@ -135,6 +140,7 @@ const greet = (name) => {
 let fruits = ['Pomme', 'Banane', 'Cerise'];
 console.log(fruits[1]); // Banane
 ```
+
 ```js
 let person = {
   name: 'JF',
@@ -151,6 +157,7 @@ let element = document.getElementById('demo');
 let element2 = document.querySelector('.class');
 let elements = document.querySelectorAll('p');
 ```
+
 ```js
 element.innerHTML = 'Hello, JavaScript!';
 element.style.color = 'blue';
@@ -158,19 +165,30 @@ element.setAttribute('title', 'Tooltip');
 ```
 
 ### Événements
+
+```html
+<button id="submit">Oui</button>
+```
+
 ```js
-document.getElementById('myButton').addEventListener('click', function() {
-  alert('Button clicked!');
+document.getElementById('submit').addEventListener('click', function() {
+  alert('Non!');
 });
 ```
 
 ### this 🤯
 
-document.getElementById('myButton').addEventListener('click', function() {
+```html
+<button id="submit">Télécharger</button>
+```
+
+```js
+document.getElementById('submit').addEventListener('click', function() {
   // 'this' fait référence au bouton cliqué
   this.style.backgroundColor = 'lightblue';
-  this.innerHTML = 'Clicked!';
+  this.innerHTML = 'En cours';
 });
+```
 
 ## Matière
 
