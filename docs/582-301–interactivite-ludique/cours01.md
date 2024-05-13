@@ -14,14 +14,15 @@
 
 > ```js
 > // Voici un beau commentaire!
-> console.log("Salut!");
+> /* En voilà un deuxième 🙀 */
+> console.log("L’enfer, c’est les autres. - Jean-Paul Sartre (Huis Clos)");
 > ```
 
 ### Variables
 
 > ```js
-> let name = 'JF';
-> const age = 99;
+> let name = 'Bond. James Bond.';
+> const age = 007;
 > var isStudent = false;
 > ```
 
@@ -33,8 +34,49 @@
 > let notDefined;     // Non défini (undefined)
 > ```
 
-### Opérateurs (+, -, *, /, >, <, ==, !=)
-### Conditions (if, else, elseif, switch)
+### Opérateurs
+
+> ```js
+> let sum = 10 + 5;
+> let difference = 10 - 5;
+> let product = 10 * 5;
+> let quotient = 10 / 5;
+> let remainder = 10 % 3;
+> ```
+
+> ```js
+> let isEqual = 5 == '5';           // vrai
+> let isStrictEqual = 5 === '5';    // faux
+> let isNotEqual = 5 != '5';        // faux
+> let isStrictNotEqual = 5 !== '5'; // vrai
+> let isGreater = 10 > 5;           // vrai
+> let isLess = 10 < 5;              // faux
+> let isGreaterOrEqual = 10 >= 5;   // vrai
+> let isLessOrEqual = 10 <= 5;      // faux
+> ```
+
+> ```js
+> let andOperator = true && false;  // faux
+> let orOperator = true || false;   // vrai
+> let notOperator = !true;          // faux
+> ```
+
+### Conditions
+
+> ```js
+> let score = 85;
+> if (score >= 90) {
+>   console.log('A');
+> } else if (score >= 80) {
+>   console.log('B');
+> } else {
+>   console.log('C');
+> }
+> ```
+
+!!! tip "Opérateur ternaire "
+  let grade = (score >= 90) ? 'A' : (score >= 80) ? 'B' : 'C';
+
 ### Boucles (for, while, forEach)
 ### Fonctions (function)
 ### Tableaux et objets ([], {})
