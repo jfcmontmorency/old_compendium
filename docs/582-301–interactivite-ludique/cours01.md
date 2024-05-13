@@ -18,6 +18,10 @@
 console.log("L’enfer, c’est les autres. - Jean-Paul Sartre (Huis Clos)");
 ```
 
+```js
+alert("L’enfer, c’est les autres. - Jean-Paul Sartre (Huis Clos)");
+```
+
 ### Variables
 
 ```js
@@ -77,7 +81,9 @@ console.log(score);
 ```
 
 !!! tip "Opérateur ternaire"
+    ```js
     let grade = (score >= 90) ? 'A' : (score >= 80) ? 'B' : 'C';
+    ```
 
 ### Boucles
 
@@ -86,37 +92,85 @@ for (let i = 0; i < 100000; i++) {
   console.log(i + ' $');
 }
 ```
-```js
+```js title="for...in"
 let person = {name: 'JF', age: 99, city: 'Laval'};
 for (let key in person) {
   console.log(key + ' : ' + person[key]);
 }
 ```
-```js
-let fruits = ['apple', 'banana', 'cherry'];
+```js title="for...of"
+let fruits = ['Pomme', 'Banane', 'Cerise'];
 for (let fruit of fruits) {
   console.log(fruit);
 }
 ```
-```js
+```js title="forEach"
 let numbers = [1, 2, 3, 4, 5];
 numbers.forEach(function(number) {
   console.log(number);
 });
 ```
+
+### Fonctions
+
 ```js
-let numbers = [1, 2, 3, 4, 5];
-let doubled = numbers.map(function(number) {
-  return number * 2;
+function greet(name) {
+  return 'Coucou ' + name + ' !';
+}
+```
+```js title="Variable fonction"
+const greet = function(name) {
+  return 'Coucou ' + name + ' !';
+};
+```
+```js title="Fonction fléchée"
+const greet = (name) => {
+  return 'Coucou ' + name + ' !';
+};
+```
+
+### Tableaux et objets
+
+```js 
+let fruits = ['Pomme', 'Banane', 'Cerise'];
+console.log(fruits[1]); // Banane
+```
+```js
+let person = {
+  name: 'JF',
+  age: 99,
+  isStudent: false
+};
+console.log(person.name); // JF
+```
+
+### Manipulation du DOM
+
+```js
+let element = document.getElementById('demo');
+let element2 = document.querySelector('.class');
+let elements = document.querySelectorAll('p');
+```
+```js
+element.innerHTML = 'Hello, JavaScript!';
+element.style.color = 'blue';
+element.setAttribute('title', 'Tooltip');
+```
+
+### Événements
+```js
+document.getElementById('myButton').addEventListener('click', function() {
+  alert('Button clicked!');
 });
 ```
 
-### Fonctions (function)
-### Tableaux et objets ([], {})
-### DOM (getElementById, innerHTML, etc.)
-### Événements (ex: addEventListener)
-### Programmation Asynchrone (promises, async, await, callback)
-### Réusinage
+### this 🤯
+
+document.getElementById('myButton').addEventListener('click', function() {
+  // 'this' fait référence au bouton cliqué
+  this.style.backgroundColor = 'lightblue';
+  this.innerHTML = 'Clicked!';
+});
 
 ## Matière
 
