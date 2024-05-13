@@ -14,9 +14,24 @@
 
 ```js
 // Voici un beau commentaire!
-console.log("Hellow world!");
+console.log("Salut!");
 ```
 ### Variables (var, let, const) et types (bool, int, string)
+
+```js
+let name = 'JF';
+const age = 99;
+var isStudent = false;
+```
+
+```js
+let num = 10; // number
+let str = 'Salut!'; // string
+let isTrue = true; // boolean
+let empty = null; // null
+let notDefined; // undefined
+```
+
 ### Opérateurs (+, -, *, /, >, <, ==, !=)
 ### Conditions (if, else, elseif, switch)
 ### Boucles (for, while, forEach)
