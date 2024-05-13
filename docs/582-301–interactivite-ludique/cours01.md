@@ -159,9 +159,9 @@ let elements = document.querySelectorAll('p');
 ```
 
 ```js
-element.innerHTML = 'Hello, JavaScript!';
+element.innerHTML = 'Trop facile JavaScript!';
 element.style.color = 'blue';
-element.setAttribute('title', 'Tooltip');
+element.setAttribute('title', 'Petit tooltip pour ton info');
 ```
 
 ### Événements
