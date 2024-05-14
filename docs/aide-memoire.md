@@ -211,7 +211,12 @@ Styles disponibles : `note`, `abstract`, `info`, `tip`, `success`, `question`, `
 
 ## Vidéo
 
+``` title="Syntaxe"
 ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+```
+
+!!! example "Résultat"
+    ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
 
 ## Intégration Codepen
 
