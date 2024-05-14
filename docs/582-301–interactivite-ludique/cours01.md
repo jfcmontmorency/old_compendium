@@ -195,8 +195,49 @@ document.getElementById('submit').addEventListener('click', function() {
 
 ## Matière
 
-![phaser io](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/fcb15fea-51db-458b-8678-b9afb5072c32)
+### Présentation du cadriciel
+
 [Phaser.js](https://phaser.io/)
+![phaser](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/7890bb14-8d94-44a1-a6f7-8c519adf4d28)
+ 
+### Arborescence de fichiers [^1]
+[^1]: https://unity.com/how-to/organizing-your-project
+``` 
+Jeu
+│
+├── index.html 
+├── assets   
+│   ├── images
+│   │   ├── backgrounds
+│   │   ├── fx
+│   │   ├── characters
+│   │   └── items
+│   ├── audio/
+│   │   ├── music
+│   │   └── sfx
+│   └── fonts/
+│       └── nes.ttf
+├── js/
+│   ├── game.js
+│   ├── scenes/
+│   │   ├── Preload.js
+│   │   ├── Menu.js
+│   │   ├── Main.js
+│   │   └── GameOver.js
+│   ├── characters/
+│   │   ├── Player.js
+│   │   └── Enemy.js
+│   ├── items/
+│   │   ├── Coin.js
+│   │   └── PowerUp.js
+│   └── config/
+│       └── settings.js
+├── css/
+│   └── game.css
+└── lib/
+    └── phaser.min.js
+```
+
 
 ## Exercices
 
