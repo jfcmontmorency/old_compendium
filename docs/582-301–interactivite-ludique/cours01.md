@@ -206,7 +206,7 @@ document.getElementById('submit').addEventListener('click', function() {
 
 ### Arborescence de fichiers 
 
-``` title="Exemple d’arborescence [^unity]"
+``` title="Exemple d’arborescence"
 NomDuJeu
 │
 ├── index.html 
@@ -223,7 +223,7 @@ NomDuJeu
 │   └── fonts
 │       └── nes.ttf
 ├── js
-│   ├── game.js
+│   ├── script.js
 │   ├── scenes
 │   │   ├── Preload.js
 │   │   ├── Menu.js
@@ -232,16 +232,13 @@ NomDuJeu
 │   ├── characters
 │   │   ├── Player.js
 │   │   └── Enemy.js
-│   ├── items
-│   │   ├── Coin.js
-│   │   └── PowerUp.js
-│   └── config
-│       └── settings.js
+│   └── etc.
 ├── css
-│   └── game.css
+│   └── style.css
 └── libraries
-    └── phaser.min.js
+    └── phaser.min.js 
 ```
+Bonnes pratiques pour organiser votre projet [^unity]
 
 [^unity]: https://unity.com/how-to/organizing-your-project
 
