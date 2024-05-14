@@ -222,20 +222,20 @@ NomDuJeu
 │   │   └── sfx
 │   └── fonts
 │       └── nes.ttf
-├── js
-│   ├── script.js
-│   ├── scenes
-│   │   ├── Preload.js
-│   │   ├── Menu.js
-│   │   ├── Main.js
-│   │   └── GameOver.js
-│   ├── characters
-│   │   ├── Player.js
-│   │   └── Enemy.js
-│   └── etc.
-├── css
-│   └── style.css
-└── libraries
+├── src
+│   ├── css
+│   |   └── main.css
+│   └── js
+│       ├── main.js
+│       ├── scenes
+│       │   ├── Game.js
+│       │   ├── GameOver.js
+│       │   ├── MainMenu.js
+│       │   └── Preloader.js
+│       └── characters
+│           ├── Player.js
+│           └── Enemy.js
+└── vendor
     └── phaser.min.js 
 ```
 
@@ -243,4 +243,8 @@ NomDuJeu
 
 ## Exercices
 
+À venir
+
 ## Devoir
+
+À venir
