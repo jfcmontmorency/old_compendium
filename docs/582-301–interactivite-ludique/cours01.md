@@ -238,9 +238,8 @@ NomDuJeu
 └── libraries
     └── phaser.min.js 
 ```
-Bonnes pratiques pour organiser votre projet [^unity]
 
-[^unity]: https://unity.com/how-to/organizing-your-project
+[^unity]: Bonnes pratiques pour organiser votre projet https://unity.com/how-to/organizing-your-project
 
 ## Exercices
 
