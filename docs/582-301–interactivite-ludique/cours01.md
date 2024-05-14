@@ -199,45 +199,51 @@ document.getElementById('submit').addEventListener('click', function() {
 
 [Phaser.js](https://phaser.io/)
 ![phaser](https://github.com/jfcmontmorency/jfcmontmorency.github.io/assets/142059735/7890bb14-8d94-44a1-a6f7-8c519adf4d28)
- 
-### Arborescence de fichiers [^1]
-[^1]: https://unity.com/how-to/organizing-your-project
-``` 
-Jeu
+
+### Installation
+
+À venir...
+
+### Arborescence de fichiers 
+
+``` title="Exemple d’arborescence [^unity]"
+NomDuJeu
 │
 ├── index.html 
-├── assets   
+├── assets
 │   ├── images
 │   │   ├── backgrounds
 │   │   ├── fx
 │   │   ├── characters
+│   │   ├── ui
 │   │   └── items
-│   ├── audio/
+│   ├── audio
 │   │   ├── music
 │   │   └── sfx
-│   └── fonts/
+│   └── fonts
 │       └── nes.ttf
-├── js/
+├── js
 │   ├── game.js
-│   ├── scenes/
+│   ├── scenes
 │   │   ├── Preload.js
 │   │   ├── Menu.js
 │   │   ├── Main.js
 │   │   └── GameOver.js
-│   ├── characters/
+│   ├── characters
 │   │   ├── Player.js
 │   │   └── Enemy.js
-│   ├── items/
+│   ├── items
 │   │   ├── Coin.js
 │   │   └── PowerUp.js
-│   └── config/
+│   └── config
 │       └── settings.js
-├── css/
+├── css
 │   └── game.css
-└── lib/
+└── libraries
     └── phaser.min.js
 ```
 
+[^unity]: https://unity.com/how-to/organizing-your-project
 
 ## Exercices
 
