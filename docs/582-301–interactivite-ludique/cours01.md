@@ -190,6 +190,8 @@ document.getElementById('submit').addEventListener('click', function() {
 });
 ```
 
-## Matière
+## Cours
+
+## Exercices
 
 ## Devoir
