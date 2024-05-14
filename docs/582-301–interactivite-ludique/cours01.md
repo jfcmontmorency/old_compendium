@@ -9,7 +9,7 @@
 1. Matière
 1. Pause ⏸️
 1. Exercices
-1. Devoir
+1. Devoir Yééé!
 
 ## Révision JavaScript
 
