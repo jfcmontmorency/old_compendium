@@ -239,7 +239,7 @@ NomDuJeu
     └── phaser.min.js 
 ```
 
-[^unity]: [Bonnes pratiques pour organiser votre jeu vidéo](https://unity.com/how-to/organizing-your-project)
+[^unity]: [Bonnes pratiques pour organiser votre jeu vidéo](https://unity.com/how-to/organizing-your-project) (En anglais)
 
 ## Exercices
 
