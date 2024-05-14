@@ -204,9 +204,9 @@ document.getElementById('submit').addEventListener('click', function() {
 
 À venir...
 
-### Arborescence de fichiers 
+### Arborescence
 
-``` title="Exemple d’arborescence"
+```
 NomDuJeu
 │
 ├── index.html 
