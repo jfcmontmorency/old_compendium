@@ -11,12 +11,12 @@ L’élève réalise un projet ludique sur ordinateur qui intègre des images et
 
 Ce cours permet à l’élève de se familiariser avec les logiciels d’intégration multimédia et d’assimiler les notions de base de l’interactivité : présentation d’actions à accomplir, mesure et communication de la réussite (succès ou échec) et progression.
 
-# Objectifs
+## Objectifs
 
 * Intégrer des médias visuels et sonores dans une expérience ludique.
 * Programmer des actions ludiques qu’un interacteur doit accomplir pour progresser
 
-# Préalables
+## Préalables
 
 Le cours suivant est préalable absolu au présent cours 
 
@@ -27,15 +27,14 @@ Le présent cours est préalable absolu aux cours suivants
 * 582 401 MO Réalité mixte
 * 582 541 MO Préparation au milieu de travail
 
-# Attitudes professionnelles
+## Attitudes professionnelles
 
 * Rigueur
 * Créativité
 
-# Enseignant
+## Enseignant
 
 Jean-François Cartier
-
 
 | Spécifications        | Valeur  |
 | --------------------- | ------- |
